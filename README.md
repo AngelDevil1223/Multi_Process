@@ -17,9 +17,11 @@ Filenamei SUM=sumi NUM=numi AVG=avgi Filenamej SUM=sumj NUM=numj AVG=avgj
 Your programs should compile as follows:
 
 gcc -o prs process.c
+
 gcc -o thr thread.c -lpthread
 
 And the programs should run as follows (all datasets are provided as command line arguments):
 
 ./prs dataset1 dataset2 dataset3
+
 ./thr dataset1 dataset2 dataset3
